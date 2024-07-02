@@ -42,3 +42,12 @@ create table medicos
 V2__alter-table-medicos-add-column-telefone.sql
 alter table medicos
     add telefone varchar(20) not null;
+
+
+  SEGUNDO CURSO
+
+  * Boas práticas na API
+  * Tratamento de erros
+  * Controle de Autenticação/Autorização
+  * Autenticação baseada em Tokens Jason Web Token (JWT)
+
