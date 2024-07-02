@@ -1,17 +1,3 @@
-cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
-mysql -U root -p
-
-use voll.med_api
- show tables;
- desc medicos;
- select * from medicos;
-
-
-DELETE FROM flyway_schema_history;
-DROP DATABASE nome_do_seu_banco_de_dados;
-CREATE DATABASE nome_do_seu_banco_de_dados;
-
-V1__create-table-medicos.sql
 create table medicos
 (
 
@@ -30,7 +16,3 @@ create table medicos
 
     primary key (id)
 );
-
-V2__alter-table-medicos-add-column-telefone.sql
-alter table medicos
-    add telefone varchar(20) not null;
