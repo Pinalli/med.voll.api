@@ -6,10 +6,18 @@ use voll.med_api
  desc medicos;
  select * from medicos;
 
+Erro com migration{
+    DELETE FROM flyway_schema_history;
+    DROP DATABASE nome_do_seu_banco_de_dados;
+    CREATE DATABASE nome_do_seu_banco_de_dados;
+}
 
-DELETE FROM flyway_schema_history;
-DROP DATABASE nome_do_seu_banco_de_dados;
-CREATE DATABASE nome_do_seu_banco_de_dados;
+postman{
+    localhost:8080/medicos?sort=crm,desc
+    localhost:8080/medicos?size=1&page=1
+    http://localhost:8080/medicos?tamanho=5&pagina=1&ordem=email,desc
+}
+
 
 V1__create-table-medicos.sql
 create table medicos
