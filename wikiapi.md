@@ -57,3 +57,6 @@ https://http.dog/
 3. Integrações e Extensibilidade
 <li> <b>O Spring Security</b> é altamente extensível e oferece integrações com vários mecanismos de autenticação, como LDAP e OAuth.</li>
 <li>Além disso, é possível criar suas próprias extensões personalizadas.</li>
+
+## Doc Spring data
+https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html

@@ -1,4 +1,4 @@
-package med.voll.api.infra;
+package med.voll.api.infra.exception;
 
 import jakarta.persistence.EntityNotFoundException;
 
@@ -17,7 +17,6 @@ public class TratadorDeErros {
         return ResponseEntity.notFound().build();
 
     }
-
     //cadastro
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity trataErro400(MethodArgumentNotValidException ex) {
@@ -29,6 +28,5 @@ public class TratadorDeErros {
         public DadosErroValidacao(FieldError fieldError) {
             this(fieldError.getField(), fieldError.getDefaultMessage());
         }
-
     }
 }
