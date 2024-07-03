@@ -63,3 +63,6 @@ https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html
 
 ## JWT
 https://jwt.io/libraries
+
+## Method Security
+https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html
