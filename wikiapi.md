@@ -1,4 +1,4 @@
-## Categoria de códigos
+## Categoria de códigos HTTP
 Os códigos HTTP (ou HTTPS) possuem três dígitos, sendo que o primeiro dígito significa a classificação dentro das possíveis cinco categorias.
 
 1XX: Informativo – a solicitação foi aceita ou o processo continua em andamento;
