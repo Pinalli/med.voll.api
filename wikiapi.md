@@ -28,7 +28,7 @@ O erro 503 significa que o serviço acessado está temporariamente indisponível
 
 Uma dica final: dificilmente conseguimos guardar em nossa cabeça o que cada código significa, portanto, existem sites na internet que possuem todos os códigos e os significados para que possamos consultar quando necessário. Existem dois sites bem conhecidos e utilizados por pessoas desenvolvedoras, um para cada preferência: se você gosta de gatos, pode utilizar o HTTP Cats; já, se prefere cachorros, utilize o HTTP Dogs.
 
-https://http.cat/
+https://http.cat/<br>
 https://http.dog/
 
 ## Response Entity
