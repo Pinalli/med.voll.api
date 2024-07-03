@@ -66,3 +66,9 @@ https://jwt.io/libraries
 
 ## Method Security
 https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html
+
+## Novas funcionalidades
+    - Controller: Mapaar a requisição
+    - DTOs: Representa os dados que estão chegando e saindo da API
+    - Entidade JPA e Repository:  Para isolar o acesso ao banco de dados
+    - Migration: Para atualizações nas tabelas
