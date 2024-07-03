@@ -1,10 +1,9 @@
 # med.voll.api
 
 
-<p align="center">
-  <h2><b>Fluxo de uma Requisição de uma API REST com Filter e Controller</b></h2>
+<p align ="center">
+  <h2>Fluxo de uma Requisição de uma API REST com Filter e Controller</h2>
 </p>
-
 
 <p align="center">
   <img src="https://github.com/Pinalli/med.voll.api/assets/18580532/97c13fe3-2276-4fd6-8c5d-f17fb4792dfb" alt="fluxo rest" />
@@ -17,6 +16,11 @@
     - O **Filter** é um componente intermediário que pode ser configurado para executar antes ou depois do Controller.
     - Ele pode ser usado para realizar tarefas como autenticação, autorização, logging, manipulação de cabeçalhos, entre outros.
     - No fluxo de requisição, o Filter pode ser aplicado antes de chegar ao Controller.
+    - Filter é um dos recursos que fazem parte da especificação de Servlets, a qual padroniza o tratamento de requisições e respostas em aplicações Web no Java. Ou seja, tal recurso não é específico do Spring, podendo assim ser utilizado em qualquer aplicação Java.
+
+   - É um recurso muito útil para isolar códigos de infraestrutura da aplicação, como, por exemplo, segurança, logs e auditoria, para que tais códigos não sejam duplicados e misturados aos códigos relacionados às regras de negócio da aplicação.
+
+   - Para criar um Filter, basta criar uma classe e implementar nela a interface Filter (pacote jakarta.servlet)
 
 3. **DispatcherServlet**
     - Centralização do Processamento:
