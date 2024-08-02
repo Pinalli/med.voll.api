@@ -72,3 +72,6 @@ https://docs.spring.io/spring-security/reference/servlet/authorization/method-se
     - DTOs: Representa os dados que estão chegando e saindo da API
     - Entidade JPA e Repository:  Para isolar o acesso ao banco de dados
     - Migration: Para atualizações nas tabelas
+    - Regras de negócio
+## Class SimpleDateFormat
+https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
